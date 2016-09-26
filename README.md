@@ -19,7 +19,7 @@ The sqli-tools toolkit is really a proof of concept idea to try fill this gap by
 
 ## Toolkit (singular for now)
 
-bsqli-bruter.py. A proof of concept tool that automates the exfiltration of 
+___bsqli-bruter.py.___ A proof of concept tool that automates the exfiltration of 
 data through Boolean blind SQL injection where the LIKE clause is being used to 
 test a Boolean condition.
 
