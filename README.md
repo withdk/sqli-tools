@@ -1,4 +1,11 @@
-# sqli-tools 
+      ____   _____  ____  _      _____ 
+     |  _ \ / ____|/ __ \| |    |_   _|
+     | |_) | (___ | |  | | |      | |  
+     |  _ < \___ \| |  | | |      | |  
+     | |_) |____) | |__| | |____ _| |_ 
+     |____/|_____/ \___\_\______|_____|
+                                   
+                                   
 
 ## Introduction:
 
@@ -12,13 +19,12 @@ bsqli-bruter.py. A proof of concept tool that automates the exfiltration of
 data through Boolean blind SQL injection where the LIKE clause is being used to 
 test a Boolean condition.
 
-
 ## Examples
 Example POST request with a vulnerable 'sql' parameter.
 
     $ python bsqli-bruter.py -u http://somesite/somepath.ext -m 'score' -d "sql=select+name+from+bbc+where+name+LIKE+'{*}%'" -v
 
-    Example GET request with a vulnerable 'sql' parameter.
+Example GET request with a vulnerable 'sql' parameter.
 
     $ python bsqli-bruter.py -u http://somesite/somepath.ext?sql=select+name+from+bbc+where+name+LIKE+'{*}%' -m 'score' -v
 
