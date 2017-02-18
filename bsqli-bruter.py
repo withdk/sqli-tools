@@ -1,9 +1,15 @@
-# Authors DK & DrCruft
+# Blind-SQLI Data Extraction Tool
+# sqli-tools aids in testing and verifying the level of risk a BSQLI vulnerability poses, it not designed to find vulnerabilities 
+# as there are many tools that already focus on this.
 #
-# Example: python bsqli-bruter.py -u http://someurl/somepath -p http://127.0.0.1:8080 -m 'match_this' -d "postparam=some_custom_sql_query+LIKE+'{*}'"
+# Example: python bsqli-bruter.py -u http://someurl/somepath -p http://127.0.0.1:8080 -m 'match_this' \
+# -d "postparam=some_custom_sql_query+LIKE+'{*}'"
 #
 # See README.md
 #
+# Authors:
+# DK @withdk &
+# DrCruft @drcruft
 
 import sys
 from itertools import product
