@@ -19,7 +19,7 @@ After maneuvering through all these restrictions and finding some form of SQL in
 
 As part of a proof-of-concept tool, @withdk put together a quick SQLI data extraction tool that you can configure and train using a found SQL injection vulnerability to automate, hold state, and further derive more information from the binary results of the application. Finally, this helps reach the ultimate objective to exfiltrate data. It is a nice proof of concept to show that you can build something quick using Python and some basic libraries and an indicator to the security community to build more capabilities like this into their testing tools.
 
-You can find the Blind SQL Injection (BSQLI) Exploration Tool here: https://github.com/withdk/sqli-tools.
+You can find the original blog entry here: http://www.drcruft.com/.
 
 You can also find more information on designing software more securely at these links:
 
